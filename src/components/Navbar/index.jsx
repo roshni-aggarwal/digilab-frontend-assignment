@@ -17,7 +17,7 @@ const SmNav = () => {
           <img src="\images\Vector-4.png" alt="title" />
         </div>
       </div>
-      <div className="border border-gray-200 flex items-center justify-center p-3 text-blue-700">
+      <div className="border border-gray-200 flex items-center justify-center p-3 text-brand-100">
         <GiHamburgerMenu />
       </div>
     </div>
@@ -50,7 +50,9 @@ const LargeNav = () => {
         </Menu>
         <h3 className="text-sm font-medium text-gray-700">Template</h3>
       </div>
-      <button className="bg-blue-700 text-white py-2 px-4 text-sm">Contact Us</button>
+      <button className="bg-brand-100 text-white py-2 px-4 text-sm">
+        Contact Us
+      </button>
     </div>
   );
 };

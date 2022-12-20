@@ -63,7 +63,7 @@ const Footer = () => {
               placeholder="Email address"
               className="p-4 text-sm text-gray-300 w-1/2 md:w-2/3 outline-none"
             />
-            <button className="bg-blue-700 text-white py-2 px-4 text-sm w-1/2 md:w-1/3">
+            <button className="bg-brand-100 text-white py-2 px-4 text-sm w-1/2 md:w-1/3">
               Get Started
             </button>
           </form>
@@ -72,18 +72,18 @@ const Footer = () => {
               <h3 className="text-xs text-gray-300 font-bold">
                 OPUS FOR WEBFLOW
               </h3>
-              <h2 className="text-2xl font-bold text-blue-700">Lorem Ipsum</h2>
+              <h2 className="text-2xl font-bold text-brand-100">Lorem Ipsum</h2>
             </div>
             <div className="flex flex-col items-start gap-2">
               <h3 className="text-xs text-gray-300 font-bold">
                 OPUS FOR FIGMA
               </h3>
-              <h2 className="text-2xl font-bold text-blue-700">Lorem Ipsum</h2>
+              <h2 className="text-2xl font-bold text-brand-100">Lorem Ipsum</h2>
             </div>
           </div>
           <p className="text-gray-400">
-            © Template by <span className="text-blue-700">Lorem</span> - Powered
-            by <span className="text-blue-700">Ipsum</span>
+            © Template by <span className="text-brand-100">Lorem</span> -
+            Powered by <span className="text-brand-100">Ipsum</span>
           </p>
         </div>
       </div>

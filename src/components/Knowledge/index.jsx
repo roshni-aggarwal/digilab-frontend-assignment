@@ -2,7 +2,9 @@ import React from 'react'
 
 const Knowledge = () => {
   return (
-    <div>Knowledge</div>
+    <div className='flex flex-col-reverse md:flex-row'>
+      <div></div>
+    </div>
   )
 }
 
