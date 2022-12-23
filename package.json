@@ -2,7 +2,6 @@
   "name": "digilab-frontend-assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://roshni-aggarwal.github.io/digilab-frontend-assignment",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@testing-library/jest-dom": "^5.16.5",

@@ -22,8 +22,8 @@ const Resources = () => {
   return (
     <div>
       <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-6 md:px-12 lg:px-24 my-16">
-        <h1 className="text-5xl font-bold text-brand-500">Resources</h1>
-        <button className="bg-brand-100 text-white py-2 px-4 text-sm">
+        <h1 className="text-5xl font-bold text-brand-700">Resources</h1>
+        <button className="bg-brand-300 text-white py-2 px-4 text-sm">
           Get Started
         </button>
       </div>

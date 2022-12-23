@@ -12,7 +12,7 @@ import Work from "../WorkWithUs";
 const WebsiteContent = () => {
   return (
     <div className="px-5 md:px-24 lg:px-48 py-24">
-      <Stats />
+      {/* <Stats />
       <VideoTile />
       <SiteBetter />
       <Work />
@@ -20,7 +20,7 @@ const WebsiteContent = () => {
       <Features />
       <Knowledge />
       <Stamps />
-      <Resources />
+      <Resources /> */}
     </div>
   );
 };
