@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="py-10 px-3 md:px-24 lg:px-48">
-      {/* <div className="flex items-center gap-3">
+    <footer className="py-10 px-3 md:px-24 lg:px-48 relative top-[1900px] md:top-[1600px] lg:top-[1200px]">
+      <div className="flex items-center gap-3">
         <div className="w-7 h-7">
           <img src="\images\Vector.png" alt="logo" className="w-full h-full" />
         </div>
@@ -91,7 +91,7 @@ const Footer = () => {
         <h3>Style Guide</h3>
         <h3>Licence</h3>
         <h3>Changelog</h3>
-      </div> */}
+      </div>
     </footer>
   );
 };

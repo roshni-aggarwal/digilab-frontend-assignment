@@ -11,8 +11,8 @@ import Work from "../WorkWithUs";
 
 const WebsiteContent = () => {
   return (
-    <div className="px-5 md:px-24 lg:px-48 py-24">
-      {/* <Stats />
+    <div className="relative top-[1800px] md:top-[1500px] lg:top-[1100px]">
+      <Stats />
       <VideoTile />
       <SiteBetter />
       <Work />
@@ -20,7 +20,7 @@ const WebsiteContent = () => {
       <Features />
       <Knowledge />
       <Stamps />
-      <Resources /> */}
+      <Resources />
     </div>
   );
 };

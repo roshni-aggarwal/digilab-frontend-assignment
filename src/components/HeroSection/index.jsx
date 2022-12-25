@@ -42,7 +42,7 @@ const SmHeroSection = () => {
 
 const LargeHeroSection = () => {
   return (
-    <div className="hidden md:block bg-brand-700 relative  h-screen w-screen">
+    <div className="hidden md:block bg-brand-700 relative  h-screen">
       <div className="absolute w-72 h-56 md:left-16 lg:left-32 top-[calc(50%-114px)]">
         <img src="\images\Group1.png" alt="group" className="w-full h-full" />
       </div>
@@ -123,14 +123,14 @@ const LargeHeroSection = () => {
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col gap-24 absolute h-max">
+    <div className="flex flex-col gap-24 absolute h-max w-full">
       <SmHeroSection />
       <LargeHeroSection />
       <div className="px-3 md:px-24 lg:px-48">
         <h1 className="text-3xl font-bold text-brand-700 text-center">
           Trusted and loved by the world's best teams
         </h1>
-        <div className="flex flex-col md:flex-row gap-4 lg:gap-8 mt-8 flex-wrap text-xl md:text-2xl lg:text-3xl items-center justify-center">
+        <div className="flex flex-col md:flex-row gap-4 lg:gap-8 mt-8 flex-wrap text-xl md:text-2xl lg:text-3xl items-center justify-between">
           <div className="p-12 md:px-2 lg:p-14">
             <h2 className="text-gray-500 font-medium">wetransfer</h2>
           </div>
